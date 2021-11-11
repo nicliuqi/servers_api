@@ -44,7 +44,7 @@
  
  | 响应结果 | 状态码 |  返回值示例  |
  |  :---:  |  :---: |  :---:  |
- | 成功 | 200 | {"name": "obs-worker1636612382", "ip": "172.1.16.xxx", "server_id": "xxx", "flavorRef": "c6.4xlarge.4"} |
+ | 成功 | 200 | {"name": "obs-worker1636612382", "ip": "172.1.16.xxx", "server_id": "xxx", "flavorRef": "c6.4xlarge.4", "status": "ACTIVE"} |
  | 失败 | 400 | {"error": {"message": "Not exist", "code": "400"}} |
 
 ---
