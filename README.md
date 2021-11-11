@@ -45,7 +45,7 @@
  | 响应结果 | 状态码 |  返回值示例  |
  |  :---:  |  :---: |  :---:  |
  | 成功 | 200 | {"name": "obs-worker1636612382", "ip": "172.1.16.xxx", "server_id": "xxx", "region": "cn-north-4"} |
- | 失败 | 404 | {"error": {"message": "Not exist", "code": "404"}} |
+ | 失败 | 400 | {"error": {"message": "Not exist", "code": "400"}} |
 
 ---
 ### 查询云服务器列表
