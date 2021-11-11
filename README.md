@@ -16,7 +16,7 @@
  
  | 响应结果 | 状态码 |  返回值示例  |
  |  :---:  |  :---: |  :---:  |
- | 成功 | 201 | [{"name": "obs-worker1636612382", "ip": "172.1.16.xxx", "server_id": "xxx", "flavorRef": "c6.4xlarge.4"}] |
+ | 成功 | 201 | {"serverIds": [server_id, server_id2]} |
  | 失败 | 400 | {"error": {"message": "vpc id[sdf] is not uuid.", "code": "Ecs.0005"}} |
 
 --- 
